@@ -61,5 +61,8 @@ body::-webkit-scrollbar {
 .css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
     width: 40% !important;
     background-color: #365194 !important;
+}
 
+.css-1l1167e {
+    display: none !important;
 }

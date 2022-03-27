@@ -100,16 +100,7 @@ const Navbar = () => {
            
             <DrawerLeft menuToggle={menuToggle} openCloseMenu={openCloseMenu}/>
           </Box>
-          <img
-          className="res-logo"
-          src="/assets/new-era-logo.png"
-          style={{margin:'auto'}}
-          alt="logo"
-            variant="h6"
-            noWrap
-            component="div"
-            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
-          />
+          <Link  style={{cursor:'pointer'}} to="home" smooth={true} hashSpy={true}><img className="res-logo" src="/assets/new-era-logo.png" alt="logo"/></Link>
         
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
