@@ -76,6 +76,10 @@
     max-width: none;
 }
 
+.css-1l1167e {
+    display: none;
+}
+
 @media screen and (max-width: 1550px) {}
 
 @media(min-width: 1200px) {
@@ -85,6 +89,10 @@
 }
 
 @media screen and (max-width: 900px) {
+    .css-1l1167e {
+        display: inline-flex;
+    }
+
     .res-logo {
         height: 80px;
         display: inline-flex !important;
