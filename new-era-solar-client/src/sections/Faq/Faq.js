@@ -15,7 +15,7 @@ export default function Faq() {
   }
   return (
       <>
-    <div style={{paddingBottom:'2rem'}} id="faq">
+    <div style={{paddingBottom:'2rem', paddingLeft:'5px', paddingRight:'5px'}} id="faq">
     <Typography className="section-title" variant="h4" style={{textAlign:'center', margin:'2rem 0 3rem 0'}}>FAQ</Typography>
       {faqData.map((faq) =>{
         return(

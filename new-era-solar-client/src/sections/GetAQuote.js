@@ -83,7 +83,7 @@ const handleChange = (e) =>{
     id="get-a-quote-section"
     >
         <div style={{position:'absolute', top:'35%', display:'flex', flexDirection:'column', justifyContent:'center'}}>
-            <Typography color="white" variant="h3">Let us help you get started</Typography>
+            <Typography className="get-started" color="white" variant="h3">Let us help you get started</Typography>
             <br></br>
             <br></br>
             <div data-aos="zoom-out-up" data-aos-duration="1000" style={{textAlign:'center'}}>

@@ -47,3 +47,20 @@
 .quote-button:focus {
     outline: 0;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .get-started {
+        text-align: center;
+    }
+
+    #get-a-quote-section {
+        position: relative;
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
