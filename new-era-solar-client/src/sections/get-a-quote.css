@@ -29,9 +29,9 @@
     background-color: transparent;
     border-radius: 20px;
     border: 2px solid white;
-    width: 175px;
-    height: 45px;
-    font-size: 25px;
+    width: 220px;
+    height: auto;
+    font-size: 35px;
     color: white;
     transition: all 0.2s ease-in-out;
 

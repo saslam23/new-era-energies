@@ -86,9 +86,10 @@ const handleChange = (e) =>{
   return (
       <>
         <div id="home" className="header-container">
-        <video style={{ objectFit:'cover', left:'0', bottom: '0',right:'0',minWidth:'100%', width:'100%',minHeight:'100vh', height:'100vh'}} autoPlay loop muted>
+          <div className="alternate-background"></div>
+        <video className="video-solar" style={{ position:'absolute', objectFit:'cover', left:'0', bottom: '0',right:'0',minWidth:'100%', width:'100%',minHeight:'100vh', height:'100vh'}} autoplay="autoplay" loop muted>
     <source src={solar} type='video/mp4' />
-      </video>s
+      </video>
             <div className="ban-content">
               <div style={{display:'flex', flexDirection:'column', justifyContent:'center'}}>
             <Typography data-aos="zoom-out-up" data-aos-duration="1000" variant="h1" style={{color:'white', zIndex:'2', textAlign:'center', fontSize:'100px'}}>New Era Energies</Typography>
