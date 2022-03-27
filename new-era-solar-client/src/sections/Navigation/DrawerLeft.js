@@ -19,7 +19,7 @@ export default function DrawerLeft({menuToggle,openCloseMenu}) {
       
         {
           pageTitle:'Contact',
-          toLink:'contact-container'
+          toLink:'contact'
         },
         {
           pageTitle:'Faq',
