@@ -66,3 +66,10 @@ body::-webkit-scrollbar {
 .css-1l1167e {
     display: none !important;
 }
+
+
+@media screen and (max-width: 900px) {
+    .css-1l1167e {
+        display: inline-flex !important;
+    }
+}
