@@ -42,14 +42,13 @@
     background-color: #365194 !important;
 }
 
-.logo {
-    height: 80px;
-
-}
-
 .res-logo {
-    display: none !important;
+    height: 80px;
+    padding-right: 20px;
+
 }
+
+
 
 .css-1q39md6-MuiButtonBase-root-MuiButton-root {
     font-weight: 500 !important;
@@ -68,17 +67,11 @@
     display: none !important;
 }
 
-.css-1t6c9ts {
-    margin-left: -110px !important;
-}
-
 .css-1oqqzyl-MuiContainer-root {
     max-width: none;
 }
 
-.css-1l1167e {
-    display: none;
-}
+
 
 @media screen and (max-width: 1550px) {}
 
@@ -89,10 +82,6 @@
 }
 
 @media screen and (max-width: 900px) {
-    .css-1l1167e {
-        display: inline-flex;
-    }
-
     .res-logo {
         height: 80px;
         display: inline-flex !important;

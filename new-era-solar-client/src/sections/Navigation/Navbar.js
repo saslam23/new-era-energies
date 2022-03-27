@@ -82,7 +82,7 @@ const Navbar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-          <Link  style={{cursor:'pointer'}} to="home" smooth={true} hashSpy={true}><img className="logo" src="/assets/new-era-logo.png" alt="logo"/></Link>
+         
           </Typography>
 
           <Box style={{display:'flex', alignItems:'center'}} sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
