@@ -27,7 +27,7 @@ export default function Faq() {
           aria-controls="panel1bh-content"
           id="panel1bh-header"
           >
-          <Typography sx={{  fontWeight:'500' }}>
+          <Typography sx={{ textAlign:'start', fontWeight:'500' }}>
           {faq.question}
           </Typography>
           </AccordionSummary>
