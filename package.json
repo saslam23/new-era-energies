@@ -4,7 +4,8 @@
   "description": "website for new era energies",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd new-era-solar-client && npm install && npm run build"
   },
   "author": "Saad Aslam",
   "license": "ISC",
