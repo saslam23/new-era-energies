@@ -92,8 +92,8 @@ const handleChange = (e) =>{
       </video>
             <div className="ban-content">
               <div style={{display:'flex', flexDirection:'column', justifyContent:'center'}}>
-            <Typography data-aos="zoom-out-up" data-aos-duration="1000" variant="h1" style={{color:'white', zIndex:'2', textAlign:'center', fontSize:'100px'}}>New Era Energies</Typography>
-            <Typography data-aos="zoom-out-up" data-aos-duration="2000" variant="h4" style={{textAlign:'center', paddingBottom:'1rem', color:'white'}}>Find out how much you can save switching to solar.</Typography>
+            <Typography className="header-text-one" data-aos="zoom-out-up" data-aos-duration="1000"  style={{color:'white', zIndex:'2', textAlign:'center'}}>New Era Energies</Typography>
+            <Typography className="header-text-two" data-aos="zoom-out-up" data-aos-duration="2000"  style={{textAlign:'center', paddingBottom:'1rem', color:'white'}}>Find out how much you can save switching to solar.</Typography>
             <div data-aos="zoom-out-up" data-aos-duration="3000" style={{textAlign:'center'}}>
               
               <button

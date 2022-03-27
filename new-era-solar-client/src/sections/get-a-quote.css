@@ -29,7 +29,7 @@
     background-color: transparent;
     border-radius: 20px;
     border: 2px solid white;
-    width: 220px;
+    width: 250px;
     height: auto;
     font-size: 35px;
     color: white;
@@ -50,6 +50,11 @@
 
 
 @media only screen and (max-width: 600px) {
+    .quote-button {
+        font-size: 25px;
+        width: 200px;
+    }
+
     .get-started {
         text-align: center;
     }
