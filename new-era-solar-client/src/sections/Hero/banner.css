@@ -15,6 +15,13 @@
 
 }
 
+.ban-content {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+}
+
 .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
     max-width: 1000px !important;
     height: auto;
@@ -24,4 +31,10 @@
 .css-uhb5lp {
     max-width: 1000px !important;
     height: auto !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .ban-content {
+        top: 30%;
+    }
 }

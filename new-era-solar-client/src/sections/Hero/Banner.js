@@ -89,7 +89,7 @@ const handleChange = (e) =>{
         <video style={{ objectFit:'cover', left:'0', bottom: '0',right:'0',minWidth:'100%', width:'100%',minHeight:'100vh', height:'100vh'}} autoPlay loop muted>
     <source src={solar} type='video/mp4' />
       </video>s
-            <div style={{position:'absolute', top:'35%', left:0, right:0}}>
+            <div className="ban-content">
               <div style={{display:'flex', flexDirection:'column', justifyContent:'center'}}>
             <Typography data-aos="zoom-out-up" data-aos-duration="1000" variant="h1" style={{color:'white', zIndex:'2', textAlign:'center', fontSize:'100px'}}>New Era Energies</Typography>
             <Typography data-aos="zoom-out-up" data-aos-duration="2000" variant="h4" style={{textAlign:'center', paddingBottom:'1rem', color:'white'}}>Find out how much you can save switching to solar.</Typography>
