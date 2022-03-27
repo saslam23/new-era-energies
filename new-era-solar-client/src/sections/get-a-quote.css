@@ -1,0 +1,49 @@
+#get-a-quote-section {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#get-a-quote-section::before {
+    content: '';
+    background-image: url('../../public/assets/get-a-quote.jpg');
+    background-size: cover;
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+
+}
+
+.quote-button {
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 175px;
+    height: 45px;
+    font-size: 25px;
+    color: white;
+    transition: all 0.2s ease-in-out;
+
+}
+
+
+.quote-button:hover {
+    background-color: rgb(245, 243, 243);
+    color: rgba(0, 0, 0, 0.3);
+
+}
+
+.quote-button:focus {
+    outline: 0;
+}

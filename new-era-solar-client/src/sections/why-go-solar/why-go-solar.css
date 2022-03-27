@@ -1,0 +1,23 @@
+body {
+    background: #F5EED3;
+}
+
+
+
+.image-container {
+    display: flex;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 50%;
+    height: 50vh;
+}
+
+@media only screen and (max-width: 505px) {
+    .image-container {
+        width: 100%;
+    }
+}

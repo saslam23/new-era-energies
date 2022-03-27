@@ -1,0 +1,104 @@
+.navbar {
+    background-color: transparent !important;
+    z-index: 2;
+    height: 75px;
+}
+
+.nav-style {
+    background-color: #365194 !important;
+    opacity: 0.9;
+    transition: all .3s ease-in-out !important;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 1rem;
+    font-size: 20px;
+    color: white;
+
+}
+
+.nav-item-drawer {
+    list-style: none;
+    margin-right: 1rem;
+    font-size: 20px;
+    color: white;
+}
+
+.drawer-items {
+    margin: 2rem 0 1rem 2rem;
+}
+
+.item-active {
+    color: rgb(231, 167, 48);
+}
+
+.nav-style.scroll {
+    background-color: #365194 !important;
+    transition: all .3s ease-in-out;
+}
+
+.css-1oqqzyl-MuiContainer-root {
+    background-color: #365194 !important;
+}
+
+.logo {
+    height: 80px;
+
+}
+
+.res-logo {
+    display: none !important;
+}
+
+.css-1q39md6-MuiButtonBase-root-MuiButton-root {
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-align: center !important;
+}
+
+.css-1pz7awu-MuiButtonBase-root-MuiIconButton-root {
+    display: none !important;
+}
+
+.css-1t6c9ts {
+    margin-left: -110px !important;
+}
+
+.css-1oqqzyl-MuiContainer-root {
+    max-width: none;
+}
+
+@media screen and (max-width: 1550px) {}
+
+@media(min-width: 1200px) {
+    .css-1oqqzyl-MuiContainer-root {
+        max-width: none !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .res-logo {
+        height: 80px;
+        display: inline-flex !important;
+    }
+
+    .logo {
+        display: none !important;
+    }
+
+    .nav-item {
+        display: none !important;
+    }
+
+    .css-1pz7awu-MuiButtonBase-root-MuiIconButton-root {
+        display: inline-flex !important;
+    }
+}

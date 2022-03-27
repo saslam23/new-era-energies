@@ -1,0 +1,16 @@
+{
+  "name": "new-era-solar",
+  "version": "1.0.0",
+  "description": "website for new era energies",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saad Aslam",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "heroku-ssl-redirect": "^0.0.4"
+  }
+}
