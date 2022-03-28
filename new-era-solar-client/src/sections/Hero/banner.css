@@ -65,7 +65,7 @@
 
     .alternate-background {
         display: flex;
-        background-color: #699aa4;
+        background-color: #F5EED3;
         background-image: url('../../../public/assets/alternate.png');
         background-position: bottom;
         background-repeat: no-repeat;
