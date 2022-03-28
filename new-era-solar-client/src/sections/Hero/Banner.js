@@ -50,7 +50,7 @@ const [toSend, setToSend] = useState({
   state:'',
   zip:'',
   phone:'',
-  preferred_contact:'',
+  contact:'',
   message:'',
   reply_to:''
 })
@@ -151,9 +151,9 @@ const handleChange = (e) =>{
                     <Input required="true" value={toSend.phone} onChange={handleChange}  name="phone" id="phone-input" aria-describedby="phone-helper-text"/>
                     </FormControl>
                     <FormControl style={{marginTop:'25px'}}>
-                    <InputLabel htmlFor="preferred-input">How should we contact you? (call, text, or email)</InputLabel>
-                    <Input required="true" value={toSend.preferred_contact} onChange={handleChange}  name="preferred" id="preferred-input" aria-describedby="preferred-helper-text"/>
-                    </FormControl>
+                    <InputLabel htmlFor="contact-input">How should we contact you? (call, text, or email)</InputLabel>
+                    <Input type="text"required="true" value={toSend.contact} onChange={handleChange}  name="contact" id="contact-input" aria-describedby="contact-helper-text"/>
+                    </FormControl> 
                     <br/>
                     <br/>
                     <TextField
