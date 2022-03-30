@@ -44,7 +44,7 @@ export default function Banner () {
 const [toSend, setToSend] = useState({
   bill_cost:'',
   from_name:'',
-  to_name:'Radiant Energy',
+  to_name:'New Era Energies',
   street_address:'',
   city:'',
   state:'',

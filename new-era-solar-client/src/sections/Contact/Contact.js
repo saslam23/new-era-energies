@@ -79,7 +79,7 @@ export  function Contact() {
   };
 const [toSend, setToSend] = useState({
   from_name:'',
-  to_name:'Radiant Energy',
+  to_name:'New Era Energies',
   message:'',
   reply_to:''
 })
