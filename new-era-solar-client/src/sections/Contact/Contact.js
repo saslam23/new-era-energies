@@ -56,7 +56,7 @@ export const ContactSuccess = ({error, open, handleClose}) =>{
           <DialogTitle>Thank you!</DialogTitle>
           <DialogContent>
             <DialogContentText id="alert-dialog-slide-description">
-            We have received your message. Please give us up to 48 hours to get back to you.
+            We have received your message. Please give us 24-48 hours to get back to you.
             </DialogContentText>
           </DialogContent>
           <DialogActions>
