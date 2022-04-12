@@ -9,7 +9,8 @@ import Footer from "./sections/Footer";
 import React,{useEffect} from 'react'
 import Faq from "./sections/Faq/Faq";
 import {BrowserRouter as Router, Route, Switch, withRouter} from 'react-router-dom';
-import NotFound from "./sections/NotFound";
+import NotFound from "./sections/NotFound"; 
+
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
               <Contact/>
               <Faq/>               
               <Footer/>
+              
             </div>
           )}/>
                   <Route path="*" component={withRouter(NotFound)} />

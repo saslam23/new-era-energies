@@ -11,7 +11,6 @@ export default function SolarProcessCard({id, image, title, excerpt, step}) {
     <div>
            {id % 2 === 0 ?
            <>
-          
            <Box key={id} sx={{display:'flex', justifyContent:'space-around', paddingBottom:'5rem'}}>
          <div>
              <p style={{color:'#365194', fontSize:'20px'}}>Step {step} </p><hr></hr>     
@@ -21,6 +20,7 @@ export default function SolarProcessCard({id, image, title, excerpt, step}) {
           component="img"
           height="200"
           image={image}
+          loading="lazy"
           alt={title}
         />
         <CardContent>

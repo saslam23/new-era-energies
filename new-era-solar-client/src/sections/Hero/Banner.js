@@ -92,7 +92,7 @@ const handleChange = (e) =>{
       </video>
             <div className="ban-content">
               <div style={{display:'flex', flexDirection:'column', justifyContent:'center'}}>
-            <Typography className="header-text-one" data-aos="zoom-out-up" data-aos-duration="1000"  style={{color:'white', zIndex:'2', textAlign:'center'}}>New Era Energies</Typography>
+            <h1 className="MuiTypography-root MuiTypography-body1 header-text-one css-ahj2mt-MuiTypography-root aos-init aos-animate" data-aos="zoom-out-up" data-aos-duration="1000"  style={{color:'white', zIndex:'2', textAlign:'center'}}>New Era Energies</h1>
             <Typography className="header-text-two" data-aos="zoom-out-up" data-aos-duration="2000"  style={{textAlign:'center', paddingBottom:'1rem', color:'white'}}>Find out how much you can save switching to solar.</Typography>
             <div data-aos="zoom-out-up" data-aos-duration="3000" style={{textAlign:'center'}}>
               
