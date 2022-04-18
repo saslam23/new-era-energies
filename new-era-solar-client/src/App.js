@@ -33,7 +33,81 @@ function App() {
               
             </div>
           )}/>
-                  <Route path="*" component={withRouter(NotFound)} />
+
+          <Route exact path="/location/florida" render={() =>(
+            <h1>Florida</h1>
+          )}/>
+
+          <Route exact path="/location/florida/jacksonville" render={() =>(
+            <h1>Jacksonville</h1>
+          )}/>
+
+          <Route exact path="/location/florida/pensacola" render={() =>(
+            <h1>Pensacola</h1>
+          )}/>
+
+          <Route exact path="/location/arizona" render={() =>(
+            <h1>Arizona</h1>
+          )}/>
+
+          <Route exact path="/location/arizona/phoenix" render={() =>(
+            <h1>Phoenix</h1>
+          )}/>
+
+
+          <Route exact path="/location/arizona/tuscon" render={() =>(
+            <h1>Tuscon</h1>
+          )}/>
+
+          <Route exact path="/location/arkansas" render={() =>(
+            <h1>Arkansas</h1>
+          )}/>
+
+          <Route exact path="/location/arkansas/north-little-rock-ar" render={() =>(
+            <h1>North little rock ar</h1>
+          )}/>
+
+          <Route exact path="/location/california" render={() =>(
+            <h1>California</h1>
+          )}/>
+
+          <Route exact path="/location/nevada" render={() =>(
+            <h1>Nevada</h1>
+          )}/>
+
+          <Route exact path="/location/texas" render={() =>(
+            <h1>Texas</h1>
+          )}/>
+
+          <Route exact path="/location/texas/dallas" render={() =>(
+            <h1>Dallas</h1>
+          )}/>
+
+          <Route exact path="/location/texas/tyler" render={() =>(
+            <h1>Tyler</h1>
+          )}/>
+
+          <Route exact path="/location/texas/arlington" render={() =>(
+            <h1>Arlington</h1>
+          )}/>
+
+          <Route exact path="/location/texas/san-antonio" render={() =>(
+            <h1>San Antonio</h1>
+          )}/>
+
+          <Route exact path="/location/texas/corpus-christi" render={() =>(
+            <h1>Corpus Christi</h1>
+          )}/>
+
+
+
+
+          <Route exact path="/location/florida" render={() =>(
+            <h1>Florida</h1>
+          )}/>
+
+
+          <Route path="*" component={withRouter(NotFound)} />
         </Switch>
 
       </Router>
