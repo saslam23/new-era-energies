@@ -3,3 +3,11 @@
     background-image: linear-gradient(#F5EED3, #fdfdee);
     /*  #ebe5cd */
 }
+.full-width {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    object-fit: cover;
+}
