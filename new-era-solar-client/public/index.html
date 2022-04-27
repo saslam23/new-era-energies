@@ -29,13 +29,6 @@
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script>
       AOS.init();
-  
-      jQuery(window).on('load', function () {
-        AOS.refresh();
-      });
-
-      
-      
     </script>
 
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -51,6 +44,11 @@
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-224910692-1"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script>
+        jQuery(window).on('load', function() {
+            AOS.refresh();
+        });
+    </script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
