@@ -51,6 +51,16 @@
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-224910692-1"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
+    <script type="text/javascript">
+        jQuery(function() {
+            var myLazyLoad = new LazyLoad({
+                elements_selector: ".lazy",
+                //load_delay: 300 //adjust according to use case
+            });
+            
+        });
+    </script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
