@@ -21,9 +21,9 @@ export default function SolarProcessCard({id, image, title, excerpt, step}) {
          data-src={image} 
          src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
          alt={title} 
-         width="100%" 
+         width="800" 
          height="200" 
-         className="lazy"
+         className="lazy full-width"
         /> 
         </CardMedia>
 
@@ -51,9 +51,9 @@ export default function SolarProcessCard({id, image, title, excerpt, step}) {
          data-src={image} 
          src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
          alt={title} 
-         width="100%" 
+         width="800" 
          height="200" 
-         className="lazy"
+         className="lazy full-width"
         /> 
         </CardMedia>
         <CardContent>
