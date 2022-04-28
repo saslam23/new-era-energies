@@ -16,13 +16,17 @@ export default function SolarProcessCard({id, image, title, excerpt, step}) {
              <p style={{color:'#365194', fontSize:'20px'}}>Step {step} </p><hr></hr>     
         <Card raised="true" data-aos="fade-right" sx={{ maxWidth: 800, minHeight:450 }}>
         
-        <CardMedia
-          component="img"
-          height="200"
-          image={image}
-          loading="lazy"
-          alt={title}
-        />
+       <CardMedia>
+       <img 
+         data-src={image} 
+         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         alt={title} 
+         width="800" 
+         height="200" 
+         className="lazy full-width"
+        /> 
+        </CardMedia>
+
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
            {title}
@@ -42,12 +46,16 @@ export default function SolarProcessCard({id, image, title, excerpt, step}) {
     <div>
     <p style={{color:'#365194', fontSize:'20px'}}>Step {step} </p><hr></hr>     
         <Card raised="true" data-aos="fade-left" sx={{ maxWidth: 800, minHeight:450 }}>
-        <CardMedia
-          component="img"
-          height="200"
-          image={image}
-          alt={title}
-        />
+      <CardMedia>
+       <img 
+         data-src={image} 
+         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         alt={title} 
+         width="800" 
+         height="200" 
+         className="lazy full-width"
+        /> 
+        </CardMedia>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {title}
